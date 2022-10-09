@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+
+h1 {
+    color:#f0f0f0;
+    font-size: 60px;
+}
+nav {
+    display: flex;
+   justify-content: right;
+   align-items: center;
+    background-color: brown;
+    height: 72px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 15px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+a:hover{
+    color: #45567d;
+    border-radius: 50%;
+}
+#welcome-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 150px;
+}
+#welcome-section p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #BE3144;
+}
+#project {
+    background-color:aquamarine;
+    height: 400px;
+}
+h2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 50px;
+}
